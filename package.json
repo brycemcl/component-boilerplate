@@ -1,0 +1,12 @@
+{
+  "name": "@brycemclachlan/component-boilerplate",
+  "version": "0.1.0",
+  "description": "Component boilerplate for React",
+  "main": "setup.sh",
+  "bin": "./setup.sh",
+  "scripts": {
+    "run": "./setup.sh"
+  },
+  "author": "Bryce McLachlan",
+  "license": "ISC"
+}
