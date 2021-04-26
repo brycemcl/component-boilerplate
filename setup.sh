@@ -10,7 +10,6 @@ import index from './$2';
 export default index
 EOF
 cat > $2.tsx <<EOF
-import 'normalize.css'
 import styles from './$2.module.css'
 const component = ({}) => {
   return (
