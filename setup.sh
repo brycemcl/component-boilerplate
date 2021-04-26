@@ -35,4 +35,14 @@ export const standard = Template.bind({})
 standard.args = {}
 export {}
 EOF
+
+cat > $2.test.tsx <<EOF
+import { render } from '@testing-library/react'
+import * as $2 from './index.stories'
+
+test('renders', () => {
+  //render(<Standard {...Standard.args} />)
+})
+EOF
+
 touch $2.module.css

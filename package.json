@@ -1,6 +1,6 @@
 {
   "name": "@brycemclachlan/component-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Component boilerplate for React",
   "main": "setup.sh",
   "bin": "./setup.sh",
